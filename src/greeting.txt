@@ -1,2 +1,2 @@
 Hello from the sandbox.
-This line is changed by both conflict branches.
+Changed on branch conflict/b.
