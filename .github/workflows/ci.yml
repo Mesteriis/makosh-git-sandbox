@@ -34,7 +34,7 @@ jobs:
       - name: Print message
         env:
           MESSAGE: ${{ inputs.message || 'push' }}
-        run: echo "message: $MESSAGE"
+        run: echo "Message is $MESSAGE"
       - name: Slow step
         if: ${{ inputs.slow }}
         run: for i in $(seq 1 12); do echo "tick $i"; sleep 5; done
