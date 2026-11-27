@@ -1,3 +1,4 @@
 Hello from the sandbox.
 This line is changed by both conflict branches.
 A feature line.
+A second feature line.
